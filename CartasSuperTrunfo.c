@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main () {
-    // Cidade 1
-    char Estado1[3];
-    char Codigo_carta1[50];
+    // Cidade 1 // Estrutura que presenta a primeira cidadde da carta 1.
+    char Estado1[3]; // No campo estado, codigo da carta e cidade usei um char para armazenar letras.
+    char Codigo_carta1[50]; 
     char Cidade1[50];
-    int Populacao1;
-    float Area1;
+    int Populacao1; // No campo População e pontos turisticos usei int para declarar valores.
+    float Area1; // No campo Area e PIB usei float para armazenar numeros com virgulas e pontos.
     float PIB1;
     int Pontos1;
 
-    // Cidade 2
-    char Estado2[3];
+    // Cidade 2 // Estrutura que presenta a segunda cidadde da carta 2
+    char Estado2[3]; 
     char Codigo_carta2[50];
     char Cidade2[50];
     int Populacao2;
@@ -20,7 +20,7 @@ int main () {
     int Pontos2;
 
     // ====== Cadastro cidade 1 ======
-    printf("=== CARTA N1 ===\n");
+    printf("=== CARTA N1 ===\n"); // no Campo Carta 1 e 2 não é necessario scanf para digitar valor, é apenas informativo.
     printf("Estado: ");
     scanf(" %2s", Estado1);
     while (getchar() != '\n');
